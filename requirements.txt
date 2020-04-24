@@ -1,0 +1,11 @@
+ciso8601==2.1.3
+Django==3.0.5
+django-cockroachdb==3.0
+django-extensions==2.2.9
+git+https://git@github.com/chrisseto/django-include.git@8dff30c916e8c46891d48de03be108ac905fd8ae#egg=django_include
+ipython==7.13.0
+psycopg2==2.8.5
+pytest==3.8.0
+pytest-benchmark==3.0.0
+pytest-django==3.4.3
+ujson==2.0.3

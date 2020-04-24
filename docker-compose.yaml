@@ -1,0 +1,18 @@
+version: "3"
+services:
+
+  postgres:
+    image: postgres:12.2
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: defaultdb
+      POSTGRES_USER: root
+      POSTGRES_HOST_AUTH_METHOD: 'trust'
+
+  cockroach:
+    image: cockroachdb/cockroach-unstable:v20.1.0-rc.1
+    command: start-single-node --insecure
+    ports:
+      - "5432:26257"
+      - "8080:8080"
