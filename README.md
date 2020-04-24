@@ -14,4 +14,5 @@ This is the companion repo for my pycon2020 talk.
 ```
 
 > A single node instance of cockroach doesn't handle large aggregations very well
+>
 > The benchmarks seen in my talk made use of a https://cockroachlabs.cloud/ 3 node GCP cluster
